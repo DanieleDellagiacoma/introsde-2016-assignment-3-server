@@ -2,7 +2,7 @@
 
 The URL of my server is: ** **
 
-## SERVER
+## IMPLEMENTATION
 The server is divided in the following packages and classes:
 
 * introsde.document.dao
