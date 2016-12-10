@@ -1,5 +1,7 @@
 # introsde-2016-assignment-3-server
 
+The URL of my server is: ** **
+
 ## SERVER
 The server is divided in the following packages and classes:
 
@@ -16,7 +18,6 @@ The server is divided in the following packages and classes:
   * People.java
   * PeopleImpl.java
   
- 
 The model supported by the service includes:
 ```java
 public class Person {
@@ -45,6 +46,18 @@ public class MeasureDefinition {
  String measureType;
 }
 ```
+
+Moreover, the server implements the following operations:
+* **Method #1:** readPersonList() => List<Person>
+* **Method #2:** readPerson(Long personId) => Person
+* **Method #3:** updatePerson(Person p) => Person
+* **Method #4:** createPerson(Person p) => Person
+* **Method #5:** deletePerson(Long personId) => 0 if succeed, otherwise -1
+* **Method #6:** readPersonHistory(Long personId, String measureType) => List<HealthMeasureHistory>
+* **Method #7:** readMeasureTypes() => List<MeasureDefinition>
+* **Method #8:** readPersonMeasure(Long personId, String measureType, Long mid) => HealthMeasureHistory
+* **Method #9:** savePersonMeasure(Long personId, HealthProfile hp) => HealthProfile
+* **Method #10:** updatePersonMeasure(Long personId, HealthProfile hp) => HealthProfile
 
 ## DEPLOYMENT
 
