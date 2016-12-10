@@ -48,7 +48,7 @@ public class MeasureDefinition {
 ```
 
 Moreover, the server implements the following operations:
-* **Method #1:** readPersonList() => List<Person>
+* **Method #1:** readPersonList() => List\<Person>
 * **Method #2:** readPerson(Long personId) => Person
 * **Method #3:** updatePerson(Person p) => Person
 * **Method #4:** createPerson(Person p) => Person
