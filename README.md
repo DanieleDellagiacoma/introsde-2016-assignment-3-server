@@ -25,20 +25,23 @@ public class Person {
  String firstname;
  String lastname;
  Date birthdate
- HealthProfile healthprofile;
+ List<HealthProfile> healthprofile;
 }
 public class HealthProfile {
  int idMeasure,
- MeasureDefinition idMeasureDef;
- String idPerson;
+ int idMeasureDef;
+ int idPerson;
  String value;
+ Person person;
 }
 public class HealthMeasureHistory {
  int idMeasureHistory,
- String idPerson;
- String value;
  Date timestamp;
- MeasureDefinition idMeasureDef;
+ String value;
+ int idMeasureDef
+ int idPerson;
+ MeasureDefinition measureDefinition
+ Person person;
 }
 public class MeasureDefinition {
  int idMeasureDef,
