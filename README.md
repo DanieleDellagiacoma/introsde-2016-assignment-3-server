@@ -1,6 +1,6 @@
 # introsde-2016-assignment-3-server
 
-The URL of my server is: ** **
+The URL of my server is: **https://dellagiacomaintrosde3.herokuapp.com/ws/people?wsdl**
 
 ## IMPLEMENTATION
 The server is divided in the following packages and classes:
