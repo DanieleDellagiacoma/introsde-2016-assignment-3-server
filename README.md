@@ -61,7 +61,7 @@ Moreover, the server implements the following operations:
 
 ## DEPLOYMENT
 
-The server was deployed on Heroku in the following way (starting from the root folder of the project):
+The server was deployed on Heroku in the following way (inside the root folder of the project):
 
 ```sh
 $ git init
