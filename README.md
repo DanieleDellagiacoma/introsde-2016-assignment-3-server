@@ -36,10 +36,10 @@ public class HealthProfile {
 }
 public class HealthMeasureHistory {
  int idMeasureHistory,
- Date timestamp;
- String value;
- int idMeasureDef
  int idPerson;
+ int idMeasureDef
+ String value;
+ Date timestamp;
  MeasureDefinition measureDefinition
  Person person;
 }
