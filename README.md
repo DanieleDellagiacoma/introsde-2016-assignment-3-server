@@ -1,6 +1,10 @@
 # introsde-2016-assignment-3-server
 
+I worked in pair with: **Davide Lissoni**
+
 The URL of my server is: **https://dellagiacomaintrosde3.herokuapp.com/ws/people?wsdl**
+
+My server is called by Davide Lissoni's client: **https://github.com/DavideLissoni/introsde-2016-assignment-3-client**
 
 ## IMPLEMENTATION
 The server is divided in the following packages and classes:
